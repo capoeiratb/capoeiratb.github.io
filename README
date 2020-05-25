@@ -1,0 +1,6 @@
+Mirrored from spletnik host on 2020-05-25 using
+
+```sh
+wget --mirror --no-check-certificate https://www.capoeiratb.si/
+```
+

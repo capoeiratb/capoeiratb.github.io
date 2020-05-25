@@ -1,0 +1,93 @@
+.sk-ne-wrapper {
+   overflow: hidden;
+}
+
+.sk-ne-entry {
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 16px;
+}
+
+.sk-ne-calendar {
+   float: left;
+   min-width: 30px;
+}
+
+.sk-ne-shadow {
+   margin: 4px 18px 3px 2px;
+   #margin: 4px 20px 0 0;           /* IE7 */
+   margin: 4px 20px 0 0 \9;         /* IE8 & IE9 */
+   #border: 1px solid #CFCFCF;      /* IE7 */
+   border: 1px solid #CFCFCF \9;    /* IE8 & IE9 */
+   box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+@media screen and (min-width: 0px) {   /* IE9 */
+   .sk-ne-shadow {
+      margin: 4px 18px 3px 2px;
+      border: none;
+   }
+}
+
+.sk-ne-shadow.hidden {
+   height: 1px;
+   visibility: hidden;
+}
+
+.sk-ne-calendar .sk-ne-date-month {
+   font-size: 9px;
+   text-align: center;
+   text-transform: uppercase;
+   color: white;
+   background: #DF4910;
+}
+
+.sk-ne-calendar .sk-ne-date-day {
+   font-size: 16px;
+   text-align: center;
+   line-height: 16px;
+   color: #7C7772;
+   background: white;
+}
+
+.sk-ne-content {
+   overflow: hidden;
+}
+
+.sk-ne-heading,
+.sk-ne-title a {
+   margin-right: 10px;
+}
+
+.sk-ne-title a .sk-ne-heading {
+   margin-right: 0;
+}
+
+.sk-ne-title .plainsmall {
+   white-space: nowrap;
+   display: block;
+   margin: 5px 0;
+}
+
+.sk-ne-show-more {
+   float: left;
+   margin-bottom: 16px;
+}
+
+.sk-ne-loading {
+   padding: 10px 0;
+}
+
+.sk-ne-image {
+   background: none repeat scroll 0 0 white;
+   float: left;
+   padding: 3px;
+   width: 32px;
+}
+
+.sk-ne-contentwrapper {
+   left: -10px;
+   overflow: hidden;
+   padding-left: 10px;
+   position: relative;
+}
