@@ -2,5 +2,10 @@ Mirrored from spletnik host on 2020-05-25 using
 
 ```sh
 wget --mirror --no-check-certificate https://www.capoeiratb.si/
+find . -type f -name \*html -exec iconv -f WINDOWS-1250 -t UTF-8 -o '{}.utf8' '{}' \;
+for f in *utf8; do mv $f `basename -s .utf8 $f`; done
+pushd galerije
+for f in *utf8; do mv $f `basename -s .utf8 $f`; done
+popd
 ```
 
