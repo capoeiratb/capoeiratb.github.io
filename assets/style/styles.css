@@ -50,12 +50,12 @@ table.ig-struct td { padding: 0px; }
 .ig-gallery .ig-caption .ig-text-nowrap { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } /* system when fluid width or effects enabled */
 
 .ig-loading { background-position: center center; background-repeat: no-repeat; background-color: transparent; }
-.ig-thumb .ig-loading { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/static_loading_large.png); }
-.ig-icon .ig-loading { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/static_loading_small.png); }
+.ig-thumb .ig-loading { background-image: url('/assets/icons/static_loading_large.png'); }
+.ig-icon .ig-loading { background-image: url('/assets/icons/static_loading_small.png'); }
 
 .ig-generating { background-position: center center; background-repeat: no-repeat; background-color: transparent; }
-.ig-icon .ig-generating { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/static_generating_small.png); }
-.ig-thumb .ig-generating { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/static_generating_large.png); }
+.ig-icon .ig-generating { background-image: url('/assets/icons/static_generating_small.png'); }
+.ig-thumb .ig-generating { background-image: url('/assets/icons/static_generating_large.png'); }
 
 img.ig-loading,
 .ig-gallery .ig-loading img, 
@@ -67,10 +67,10 @@ img.ig-loading,
 .ig-viewer .ig-loading img,
 .ig-viewer .ig-generating img { position: absolute; left: -10000px; top: -10000px; }
 
-.ig-gallery.ig-loading { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/static_loading_large.png); }
+.ig-gallery.ig-loading { background-image: url('/assets/icons/static_loading_large.png'); }
 
 div.ig-notification-generating { background-color: #ffffcc; border: 1px solid #e2e3b7; text-align: center; margin: 0 0 10px; padding: 15px 20px; line-height: 1.6; border-radius: 6px; }
-div.ig-notification-generating span { background: url(//img-sp.nccdn.net/Shared/Images/Object/icon_info_32.png) center left no-repeat; padding: 10px 20px 10px 45px; color: #333333; }
+div.ig-notification-generating span { background: url('/assets/icons/icon_info_32.png') center left no-repeat; padding: 10px 20px 10px 45px; color: #333333; }
 
 .ig-gallery .ig-row-separator { line-height: 0px; clear: both; }
 
@@ -146,7 +146,7 @@ div.ig-notification-generating span { background: url(//img-sp.nccdn.net/Shared/
 } 
 .ig-viewer .ig-viewer-zoom { overflow: hidden; position: relative; }
 .ig-viewer .ig-viewer-zoom img { position: absolute; cursor: move; }
-.ig-viewer .ig-viewer-zoom.ig-loading { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/static_loading_large.png); }
+.ig-viewer .ig-viewer-zoom.ig-loading { background-image: url('/assets/icons/static_loading_large.png'); }
 .ig-viewer .ig-viewer-zoom.ig-loading img { left: -10000px; top: -10000px; }
 
 
@@ -284,9 +284,9 @@ div.ig-notification-generating span { background: url(//img-sp.nccdn.net/Shared/
 .ig-gallery.ig-type-filmstrip .ig-icongrid.ig-vertical .ig-icon.ig-selected { padding-left: 10px; padding-right: 0px; }
 
 .ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon { padding: 4px; border: 1px solid transparent; }
-.ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon.ig-over { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/mat-black-12.png); }
-.ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon.ig-click { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/mat-black-12.png); }
-.ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon.ig-selected { background-image: url(//img-sp.nccdn.net/Shell/Gallery2/images/mat-black-12.png); }
+.ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon.ig-over { background-image: url('/assets/icons/mat-black-12.png'); }
+.ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon.ig-click { background-image: url('/assets/icons/mat-black-12.png'); }
+.ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon.ig-selected { background-image: url('/assets/icons/mat-black-12.png'); }
 
 .ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon { padding: 4px; border: 1px solid transparent; }
 .ig-gallery.ig-type-mosaic .ig-icongrid .ig-icon.ig-over { border: 1px solid rgb(0,0,0); border-color: rgba(0,0,0,0.2); }

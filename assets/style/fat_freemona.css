@@ -2,7 +2,7 @@ body.template { margin: 0px; }
 div.contentAreaElement { clear: both; }
 .menuitem_code { display:none; }
 div.popupBlockerImage {
-   background-image: url(//img-sp.nccdn.net/Shared/Images/popup_blocker_anim.gif);
+   background-image: url('/assets/icons/popup_blocker_anim.gif');
    width: 375px;
    height: 130px;
    margin-top: 15px;
@@ -341,7 +341,7 @@ a.alert:hover {
    background-color: #6A6D6A;
    background-repeat: repeat-x;
    background-position: top;
-   background-image: url( //img-sp.nccdn.net/Shared/Images/sys_alert_top.gif );
+   background-image: url('/assets/icons/sys_alert_top.gif');
 }
 
 .SystemAlertPlaceholder .content .text {
@@ -370,7 +370,7 @@ a.alert:hover {
    width: 10px;
    height: 10px;
    background-repeat: no-repeat;
-   background-image: url( //img-sp.nccdn.net/Shared/Images/sys_alert_corner_bl.gif );
+   background-image: url('/assets/icons/sys_alert_corner_bl.gif');
    float: left;
    display: block;
 }
@@ -380,7 +380,7 @@ a.alert:hover {
    width: 10px;
    height: 10px;
    background-repeat: no-repeat;
-   background-image: url( //img-sp.nccdn.net/Shared/Images/sys_alert_corner_br.gif );
+   background-image: url('/assets/icons/sys_alert_corner_br.gif');
    float: left;
    display: block;
 }
@@ -468,7 +468,7 @@ a.alert:hover {
 }
 
 .form-message-icon-success {
-   background: url('//img-sp.nccdn.net/Shared/Images/Form/icon-success-32.png') no-repeat;
+   background: url('/assets/icons/icon-success-32.png') no-repeat;
 }
 
 .form-message-error {
@@ -477,7 +477,7 @@ a.alert:hover {
 }
 
 .form-message-icon-error {
-   background: url('//img-sp.nccdn.net/Shared/Images/Form/icon-error-32.png') no-repeat;
+   background: url('/assets/icons/icon-error-32.png') no-repeat;
 }
 
 .form-field-error-icon {
@@ -487,7 +487,7 @@ a.alert:hover {
    width: 16px;
    height: 16px;
    margin: 2px 0 0 2px;
-   background: url('//img-sp.nccdn.net/Shared/Images/Form/icon-error-16.png') no-repeat;
+   background: url('/assets/icons/icon-error-16.png') no-repeat;
    vertical-align: top;
 }
 
@@ -619,7 +619,7 @@ textarea.form-field-error {
    display: block;
    width: 50px;
    height: 50px;
-   background: url('//img-sp.nccdn.net/Shared/Images/DesignSelector/close.png') no-repeat;
+   background: url('/assets/icons/close.png') no-repeat;
    cursor: pointer;
 }
 
@@ -761,13 +761,13 @@ textarea.form-field-error {
 .skhl-solid .skhl-left,
 .skhl-solid .skhl-right { height: 1px; background-position: top left; background-repeat: repeat-x; }
 body.content-bgr-light .skhl-solid .skhl-left,
-body.content-bgr-light .skhl-solid .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/solid-dark.png); }
+body.content-bgr-light .skhl-solid .skhl-right { background-image: url('/assets/icons/solid-dark.png'); }
 body.content-bgr-light .invertText .skhl-solid .skhl-left,
-body.content-bgr-light .invertText .skhl-solid .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/solid-light.png); }
+body.content-bgr-light .invertText .skhl-solid .skhl-right { background-image: url('/assets/icons/solid-light.png'); }
 body.content-bgr-dark .skhl-solid .skhl-left,
-body.content-bgr-dark .skhl-solid .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/solid-light.png); }
+body.content-bgr-dark .skhl-solid .skhl-right { background-image: url('/assets/icons/solid-light.png'); }
 body.content-bgr-dark .invertText .skhl-solid .skhl-left,
-body.content-bgr-dark .invertText .skhl-solid .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/solid-dark.png); }
+body.content-bgr-dark .invertText .skhl-solid .skhl-right { background-image: url('/assets/icons/solid-dark.png'); }
 
 
 
@@ -776,13 +776,13 @@ body.content-bgr-dark .invertText .skhl-solid .skhl-right { background-image: ur
 .skhl-double .skhl-left,
 .skhl-double .skhl-right { height: 3px; background-position: top left; background-repeat: repeat-x; }
 body.content-bgr-light .skhl-double .skhl-left,
-body.content-bgr-light .skhl-double .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/double-dark.png); }
+body.content-bgr-light .skhl-double .skhl-right { background-image: url('/assets/icons/double-dark.png'); }
 body.content-bgr-light .invertText .skhl-double .skhl-left,
-body.content-bgr-light .invertText .skhl-double .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/double-light.png); }
+body.content-bgr-light .invertText .skhl-double .skhl-right { background-image: url('/assets/icons/double-light.png'); }
 body.content-bgr-dark .skhl-double .skhl-left,
-body.content-bgr-dark .skhl-double .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/double-light.png); }
+body.content-bgr-dark .skhl-double .skhl-right { background-image: url('/assets/icons/double-light.png'); }
 body.content-bgr-dark .invertText .skhl-double .skhl-left,
-body.content-bgr-dark .invertText .skhl-double .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/double-dark.png); }
+body.content-bgr-dark .invertText .skhl-double .skhl-right { background-image: url('/assets/icons/double-dark.png'); }
 
 
 
@@ -794,20 +794,20 @@ body.content-bgr-dark .invertText .skhl-double .skhl-right { background-image: u
 .skhl-dashed .skhl-right { background-position: top left; }
 
 body.content-bgr-light .skhl-dashed .skhl-left,
-body.content-bgr-light .skhl-dashed .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-dark.png); }
-body.content-bgr-light .skhl-dashed.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-dark-flipped.png); }
+body.content-bgr-light .skhl-dashed .skhl-right { background-image: url('/assets/icons/dashed-dark.png'); }
+body.content-bgr-light .skhl-dashed.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dashed-dark-flipped.png'); }
 
 body.content-bgr-light .invertText .skhl-dashed .skhl-left,
-body.content-bgr-light .invertText .skhl-dashed .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-light.png); }
-body.content-bgr-light .invertText .skhl-dashed.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-light-flipped.png); }
+body.content-bgr-light .invertText .skhl-dashed .skhl-right { background-image: url('/assets/icons/dashed-light.png'); }
+body.content-bgr-light .invertText .skhl-dashed.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dashed-light-flipped.png'); }
 
 body.content-bgr-dark .skhl-dashed .skhl-left,
-body.content-bgr-dark .skhl-dashed .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-light.png); }
-body.content-bgr-dark .skhl-dashed.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-light-flipped.png); }
+body.content-bgr-dark .skhl-dashed .skhl-right { background-image: url('/assets/icons/dashed-light.png'); }
+body.content-bgr-dark .skhl-dashed.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dashed-light-flipped.png'); }
 
 body.content-bgr-dark .invertText .skhl-dashed .skhl-left,
-body.content-bgr-dark .invertText .skhl-dashed .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-dark.png); }
-body.content-bgr-dark .invertText .skhl-dashed.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dashed-dark-flipped.png); }
+body.content-bgr-dark .invertText .skhl-dashed .skhl-right { background-image: url('/assets/icons/dashed-dark.png'); }
+body.content-bgr-dark .invertText .skhl-dashed.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dashed-dark-flipped.png'); }
 
 
 
@@ -819,20 +819,20 @@ body.content-bgr-dark .invertText .skhl-dashed.skhl-hasornament .skhl-left { bac
 .skhl-dotted .skhl-right { background-position: top left; }
 
 body.content-bgr-light .skhl-dotted .skhl-left,
-body.content-bgr-light .skhl-dotted .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-dark.png); }
-body.content-bgr-light .skhl-dotted.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-dark-flipped.png); }
+body.content-bgr-light .skhl-dotted .skhl-right { background-image: url('/assets/icons/dotted-dark.png'); }
+body.content-bgr-light .skhl-dotted.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dotted-dark-flipped.png'); }
 
 body.content-bgr-light .invertText .skhl-dotted .skhl-left,
-body.content-bgr-light .invertText .skhl-dotted .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-light.png); }
-body.content-bgr-light .invertText .skhl-dotted.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-light-flipped.png); }
+body.content-bgr-light .invertText .skhl-dotted .skhl-right { background-image: url('/assets/icons/dotted-light.png'); }
+body.content-bgr-light .invertText .skhl-dotted.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dotted-light-flipped.png'); }
 
 body.content-bgr-dark .skhl-dotted .skhl-left,
-body.content-bgr-dark .skhl-dotted .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-light.png); }
-body.content-bgr-dark .skhl-dotted.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-light-flipped.png); }
+body.content-bgr-dark .skhl-dotted .skhl-right { background-image: url('/assets/icons/dotted-light.png'); }
+body.content-bgr-dark .skhl-dotted.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dotted-light-flipped.png'); }
 
 body.content-bgr-dark .invertText .skhl-dotted .skhl-left,
-body.content-bgr-dark .invertText .skhl-dotted .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-dark.png); }
-body.content-bgr-dark .invertText .skhl-dotted.skhl-hasornament .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/dotted-dark-flipped.png); }
+body.content-bgr-dark .invertText .skhl-dotted .skhl-right { background-image: url('/assets/icons/dotted-dark.png'); }
+body.content-bgr-dark .invertText .skhl-dotted.skhl-hasornament .skhl-left { background-image: url('/assets/icons/dotted-dark-flipped.png'); }
 
 
 
@@ -844,15 +844,15 @@ body.content-bgr-dark .invertText .skhl-dotted.skhl-hasornament .skhl-left { bac
 .skhl-gradient .skhl-left { background-position: top right; }
 .skhl-gradient .skhl-right { background-position: top left; }
 
-body.content-bgr-light .skhl-gradient .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-dark-left.png); }
-body.content-bgr-light .skhl-gradient .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-dark-right.png); }
-body.content-bgr-light .invertText .skhl-gradient .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-light-left.png); }
-body.content-bgr-light .invertText .skhl-gradient .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-light-right.png); }
+body.content-bgr-light .skhl-gradient .skhl-left { background-image: url('/assets/icons/gradient-dark-left.png'); }
+body.content-bgr-light .skhl-gradient .skhl-right { background-image: url('/assets/icons/gradient-dark-right.png'); }
+body.content-bgr-light .invertText .skhl-gradient .skhl-left { background-image: url('/assets/icons/gradient-light-left.png'); }
+body.content-bgr-light .invertText .skhl-gradient .skhl-right { background-image: url('/assets/icons/gradient-light-right.png'); }
 
-body.content-bgr-dark .skhl-gradient .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-light-left.png); }
-body.content-bgr-dark .skhl-gradient .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-light-right.png); }
-body.content-bgr-dark .invertText .skhl-gradient .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-dark-left.png); }
-body.content-bgr-dark .invertText .skhl-gradient .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/gradient-dark-right.png); }
+body.content-bgr-dark .skhl-gradient .skhl-left { background-image: url('/assets/icons/gradient-light-left.png'); }
+body.content-bgr-dark .skhl-gradient .skhl-right { background-image: url('/assets/icons/gradient-light-right.png'); }
+body.content-bgr-dark .invertText .skhl-gradient .skhl-left { background-image: url('/assets/icons/gradient-dark-left.png'); }
+body.content-bgr-dark .invertText .skhl-gradient .skhl-right { background-image: url('/assets/icons/gradient-dark-right.png'); }
 
 
 
@@ -861,19 +861,19 @@ body.content-bgr-dark .invertText .skhl-gradient .skhl-right { background-image:
 .skhl-shadow-up .skhl-left,
 .skhl-shadow-up .skhl-right { height: 10px; background-repeat: no-repeat; background-size: 100% 100%; }
 
-.skhl-shadow-up .skhl-left { background-position: top right; background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-dark-left.png); }
-.skhl-shadow-up .skhl-right { background-position: top left; background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-dark-right.png); }
+.skhl-shadow-up .skhl-left { background-position: top right; background-image: url('/assets/icons/shadow-up-dark-left.png'); }
+.skhl-shadow-up .skhl-right { background-position: top left; background-image: url('/assets/icons/shadow-up-dark-right.png'); }
 
 /*
-body.content-bgr-light .skhl-shadow-up .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-dark-left.png); }
-body.content-bgr-light .skhl-shadow-up .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-dark-right.png); }
-body.content-bgr-light .invertText .skhl-shadow-up .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-light-left.png); }
-body.content-bgr-light .invertText .skhl-shadow-up .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-light-right.png); }
+body.content-bgr-light .skhl-shadow-up .skhl-left { background-image: url('/assets/icons/shadow-up-dark-left.png'); }
+body.content-bgr-light .skhl-shadow-up .skhl-right { background-image: url('/assets/icons/shadow-up-dark-right.png'); }
+body.content-bgr-light .invertText .skhl-shadow-up .skhl-left { background-image: url('/assets/icons/shadow-up-light-left.png'); }
+body.content-bgr-light .invertText .skhl-shadow-up .skhl-right { background-image: url('/assets/icons/shadow-up-light-right.png'); }
 
-body.content-bgr-dark .skhl-shadow-up .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-light-left.png); }
-body.content-bgr-dark .skhl-shadow-up .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-light-right.png); }
-body.content-bgr-dark .invertText .skhl-shadow-up .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-dark-left.png); }
-body.content-bgr-dark .invertText .skhl-shadow-up .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-up-dark-right.png); }
+body.content-bgr-dark .skhl-shadow-up .skhl-left { background-image: url('/assets/icons/shadow-up-light-left.png'); }
+body.content-bgr-dark .skhl-shadow-up .skhl-right { background-image: url('/assets/icons/shadow-up-light-right.png'); }
+body.content-bgr-dark .invertText .skhl-shadow-up .skhl-left { background-image: url('/assets/icons/shadow-up-dark-left.png'); }
+body.content-bgr-dark .invertText .skhl-shadow-up .skhl-right { background-image: url('/assets/icons/shadow-up-dark-right.png'); }
 */
 
 
@@ -883,19 +883,19 @@ body.content-bgr-dark .invertText .skhl-shadow-up .skhl-right { background-image
 .skhl-shadow-down .skhl-left,
 .skhl-shadow-down .skhl-right { height: 10px; background-repeat: no-repeat; background-size: 100% 100%; }
 
-.skhl-shadow-down .skhl-left { background-position: top right; background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-dark-left.png); }
-.skhl-shadow-down .skhl-right { background-position: top left; background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-dark-right.png); }
+.skhl-shadow-down .skhl-left { background-position: top right; background-image: url('/assets/icons/shadow-down-dark-left.png'); }
+.skhl-shadow-down .skhl-right { background-position: top left; background-image: url('/assets/icons/shadow-down-dark-right.png'); }
 
 /*
-body.content-bgr-light .skhl-shadow-down .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-dark-left.png); }
-body.content-bgr-light .skhl-shadow-down .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-dark-right.png); }
-body.content-bgr-light .invertText .skhl-shadow-down .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-light-left.png); }
-body.content-bgr-light .invertText .skhl-shadow-down .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-light-right.png); }
+body.content-bgr-light .skhl-shadow-down .skhl-left { background-image: url('/assets/icons/shadow-down-dark-left.png'); }
+body.content-bgr-light .skhl-shadow-down .skhl-right { background-image: url('/assets/icons/shadow-down-dark-right.png'); }
+body.content-bgr-light .invertText .skhl-shadow-down .skhl-left { background-image: url('/assets/icons/shadow-down-light-left.png'); }
+body.content-bgr-light .invertText .skhl-shadow-down .skhl-right { background-image: url('/assets/icons/shadow-down-light-right.png'); }
 
-body.content-bgr-dark .skhl-shadow-down .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-light-left.png); }
-body.content-bgr-dark .skhl-shadow-down .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-light-right.png); }
-body.content-bgr-dark .invertText .skhl-shadow-down .skhl-left { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-dark-left.png); }
-body.content-bgr-dark .invertText .skhl-shadow-down .skhl-right { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/shadow-down-dark-right.png); }
+body.content-bgr-dark .skhl-shadow-down .skhl-left { background-image: url('/assets/icons/shadow-down-light-left.png'); }
+body.content-bgr-dark .skhl-shadow-down .skhl-right { background-image: url('/assets/icons/shadow-down-light-right.png'); }
+body.content-bgr-dark .invertText .skhl-shadow-down .skhl-left { background-image: url('/assets/icons/shadow-down-dark-left.png'); }
+body.content-bgr-dark .invertText .skhl-shadow-down .skhl-right { background-image: url('/assets/icons/shadow-down-dark-right.png'); }
 */
 
 
@@ -905,8 +905,8 @@ body.content-bgr-dark .invertText .skhl-shadow-down .skhl-right { background-ima
 .skhl-prism-in .skhl-left,
 .skhl-prism-in .skhl-right { height: 6px; background-repeat: no-repeat; background-size: 100% 100%; }
 
-.skhl-prism-in .skhl-left { background-position: top right; background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/prism-inset-left.png); }
-.skhl-prism-in .skhl-right { background-position: top left; background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/prism-inset-right.png); }
+.skhl-prism-in .skhl-left { background-position: top right; background-image: url('/assets/icons/prism-inset-left.png'); }
+.skhl-prism-in .skhl-right { background-position: top left; background-image: url('/assets/icons/prism-inset-right.png'); }
 
 
 
@@ -914,10 +914,10 @@ body.content-bgr-dark .invertText .skhl-shadow-down .skhl-right { background-ima
 
 .skhl-five-dots { min-height: 10px; background-position: center center; background-repeat: no-repeat; }
 
-body.content-bgr-light .skhl-five-dots { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/five-dots-dark.png); }
-body.content-bgr-dark .skhl-five-dots { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/five-dots-light.png); }
-body.content-bgr-light .invertText .skhl-five-dots { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/five-dots-light.png); }
-body.content-bgr-dark .invertText .skhl-five-dots { background-image: url(//img-sp.nccdn.net/Designs/Common/HorizontalLine/five-dots-dark.png); }
+body.content-bgr-light .skhl-five-dots { background-image: url('/assets/icons/five-dots-dark.png'); }
+body.content-bgr-dark .skhl-five-dots { background-image: url('/assets/icons/five-dots-light.png'); }
+body.content-bgr-light .invertText .skhl-five-dots { background-image: url('/assets/icons/five-dots-light.png'); }
+body.content-bgr-dark .invertText .skhl-five-dots { background-image: url('/assets/icons/five-dots-dark.png'); }
 
 
 
@@ -1274,7 +1274,7 @@ a.menu_contents .fmCptn { display: block; }
 .fmMM {
    display: none;
    z-index: 2;
-   background: url('//img-sp.nccdn.net/Shared/Images/Object/mobile_nav_icon.png') no-repeat right;
+   background: url('/assets/icons/mobile_nav_icon.png') no-repeat right;
    cursor: pointer;
 }
 
